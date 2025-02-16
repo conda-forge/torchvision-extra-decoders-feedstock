@@ -30,7 +30,7 @@ build:
     env:
       BUILD_GIT_SHA: ${{ gitsha }}
       BUILD_VERSION: ${{ version }}
-  number: 0
+  number: 1
 
 requirements:
   build:
