@@ -25,12 +25,10 @@ build:
     # LINK : error LNK2001: unresolved external symbol PyInit_extra_decoders_lib
     - win
   script:
-    content:
-      - python -m pip install . -vv
     env:
       BUILD_GIT_SHA: ${{ gitsha }}
       BUILD_VERSION: ${{ version }}
-  number: 4
+  number: 5
 
 requirements:
   build:
