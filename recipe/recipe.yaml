@@ -29,7 +29,7 @@ build:
     env:
       BUILD_GIT_SHA: ${{ gitsha }}
       BUILD_VERSION: ${{ version }}
-  number: 6
+  number: 7
 
 requirements:
   build:
