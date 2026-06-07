@@ -21,7 +21,7 @@ cxx_compiler_version:
 libavif:
 - '1'
 libheif:
-- '1.19'
+- '1.23'
 libtorch:
 - '2.11'
 macos_machine:
